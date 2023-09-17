@@ -1,0 +1,230 @@
+{
+    "categories": [
+      {
+        "name": "Electronics",
+        "products": [
+          {
+            "id": "E001",
+            "img": "https://i.ibb.co/XkJzcyv/1-Apple-i-Phone-13-Pro.jpg",
+            "name": "Apple iPhone 13 Pro",
+            "details": "The latest high-end smartphone from Apple.",
+            "price": 999.99,
+            "discount": 10
+          },
+          {
+            "id": "E002",
+            "img": "https://i.ibb.co/vm7158z/2-Dell-XPS-15-Laptop.jpg",
+            "name": "Dell XPS 15 Laptop",
+            "details": "Powerful laptop for work and gaming.",
+            "price": 1399.99,
+            "discount": 15
+          },
+          {
+            "id": "E003",
+            "img": "https://i.ibb.co/cLcyjWx/3-Amazon-Echo-Dot-4th-Gen.jpg",
+            "name": "Amazon Echo Dot (4th Gen)",
+            "details": "Voice-controlled smart speaker with Alexa.",
+            "price": 49.99,
+            "discount": 5
+          },
+          {
+            "id": "E004",
+            "img": "https://i.ibb.co/Bsmt9hq/4-Sony-WH-1000-XM4-Headphones.jpg",
+            "name": "Sony WH-1000XM4 Headphones",
+            "details": "Premium noise-canceling headphones.",
+            "price": 299.99,
+            "discount": 0
+          },
+          {
+            "id": "E005",
+            "img": "https://i.ibb.co/TWRNKT5/5-Samsung-Galaxy-Tab-S7.jpg",
+            "name": "Samsung Galaxy Tab S7",
+            "details": "High-quality tablet for entertainment and productivity.",
+            "price": 499.99,
+            "discount": 8
+          }
+        ]
+      },
+      {
+        "name": "Clothing",
+        "products": [
+          {
+            "id": "C001",
+            "img": "https://i.ibb.co/gRkMbQG/6-Levi-s-Men-s-Denim-Jacket.jpg",
+            "name": "Levi's Men's Denim Jacket",
+            "details": "Classic denim jacket for men by Levi's.",
+            "price": 79.99,
+            "discount": 20
+          },
+          {
+            "id": "C002",
+            "img": "https://i.ibb.co/fQQ11qT/7-Women-s-Floral-Maxi-Dress.jpg",
+            "name": "Women's Floral Maxi Dress",
+            "details": "Elegant floral dress for women.",
+            "price": 69.99,
+            "discount": 15
+          },
+          {
+            "id": "C003",
+            "img": "https://i.ibb.co/nnFr8s7/8-Nike-Men-s-Running-Shoes.jpg",
+            "name": "Nike Men's Running Shoes",
+            "details": "Comfortable and stylish running shoes by Nike.",
+            "price": 59.99,
+            "discount": 0
+          },
+          {
+            "id": "C004",
+            "img": "https://i.ibb.co/r5WgRWV/9-Adidas-Women-s-Sneakers.jpg",
+            "name": "Adidas Women's Sneakers",
+            "details": "Casual sneakers for women by Adidas.",
+            "price": 49.99,
+            "discount": 10
+          },
+          {
+            "id": "C005",
+            "img": "https://i.ibb.co/KhgWWv4/10-Men-s-Polo-Shirt.jpg",
+            "name": "Men's Polo Shirt",
+            "details": "Classic polo shirt for men.",
+            "price": 29.99,
+            "discount": 5
+          }
+        ]
+      },
+      {
+        "name": "Home & Kitchen",
+        "products": [
+          {
+            "id": "H001",
+            "img": "https://i.ibb.co/vXcf1Q5/11-Keurig-K-Elite-Coffee-Maker.jpg",
+            "name": "Keurig K-Elite Coffee Maker",
+            "details": "Automatic coffee maker for brewing your favorite coffee.",
+            "price": 129.99,
+            "discount": 10
+          },
+          {
+            "id": "H002",
+            "img": "https://i.ibb.co/3k2dzwY/12-Vitamix-Professional-Series-750-Blender.jpg",
+            "name": "Vitamix Professional Series 750 Blender",
+            "details": "High-speed blender for smoothies and more.",
+            "price": 599.99,
+            "discount": 8
+          },
+          {
+            "id": "H003",
+            "img": "https://i.ibb.co/zfyZhHM/13-Egyptian-Cotton-Bedsheets.jpg",
+            "name": "Egyptian Cotton Bedsheets",
+            "details": "Luxurious bedsheets for a comfortable sleep.",
+            "price": 79.99,
+            "discount": 0
+          },
+          {
+            "id": "H004",
+            "img": "https://i.ibb.co/bXTkLxm/14.jpg",
+            "name": "Cuisinart Non-Stick Cookware Set",
+            "details": "Complete set of non-stick cookware for your kitchen.",
+            "price": 149.99,
+            "discount": 12
+          },
+          {
+            "id": "H005",
+            "img": "https://i.ibb.co/KVNS6J7/15-Philips-Hue-Smart-Table-Lamp.jpg",
+            "name": "Philips Hue Smart Table Lamp",
+            "details": "Smart table lamp for adjustable lighting.",
+            "price": 49.99,
+            "discount": 5
+          }
+        ]
+      },
+      {
+        "name": "Books",
+        "products": [
+          {
+            "id": "B001",
+            "img": "https://i.ibb.co/rskgFwg/16-The-Silent-Patient-by-Alex-Michaelides.png",
+            "name": "The Silent Patient by Alex Michaelides",
+            "details": "A gripping psychological thriller novel.",
+            "price": 14.99,
+            "discount": 0
+          },
+          {
+            "id": "B002",
+            "img": "https://i.ibb.co/C8Lq10N/17-Astrophysics-for-People-in-a-Hurry-by-Neil-de-Grasse-Tyson.jpg",
+            "name": "Astrophysics for People in a Hurry by Neil deGrasse Tyson",
+            "details": "An engaging exploration of astrophysics for beginners.",
+            "price": 12.99,
+            "discount": 10
+          },
+          {
+            "id": "B003",
+            "img": "https://i.ibb.co/kJ8K44x/18.jpg",
+            "name": "The Joy of Cooking by Irma S. Rombauer",
+            "details": "A timeless classic cookbook with delicious recipes.",
+            "price": 24.99,
+            "discount": 5
+          },
+          {
+            "id": "B004",
+            "img": "https://i.ibb.co/cbX1MP1/19-The-Power-of-Now-by-Eckhart-Tolle.jpg",
+            "name": "The Power of Now by Eckhart Tolle",
+            "details": "A spiritual guide to living in the present moment.",
+            "price": 11.99,
+            "discount": 0
+          },
+          {
+            "id": "B005",
+            "img": "https://i.ibb.co/XDf66ZK/20-Harry-Potter-and-the-Sorcerer-s-Stone-by-J-K-Rowling.png",
+            "name": "Harry Potter and the Sorcerer's Stone by J.K. Rowling",
+            "details": "The first book in the beloved Harry Potter series.",
+            "price": 9.99,
+            "discount": 15
+          }
+        ]
+      },
+      {
+        "name": "Toys & Games",
+        "products": [
+          {
+            "id": "T001",
+            "img": "https://i.ibb.co/M8Bk1fJ/21-Settlers-of-Catan-Board-Game.jpg",
+            "name": "Settlers of Catan Board Game",
+            "details": "A popular strategy board game for family fun.",
+            "price": 39.99,
+            "discount": 8
+          },
+          {
+            "id": "T002",
+            "img": "https://i.ibb.co/wymyjJv/22.jpg",
+            "name": "Giant Stuffed Teddy Bear",
+            "details": "A giant, huggable teddy bear for kids and adults.",
+            "price": 49.99,
+            "discount": 0
+          },
+          {
+            "id": "T003",
+            "img": "https://i.ibb.co/YWcgtXy/23-RC-Cars-Off-Road-Racing-Truck.jpg",
+            "name": "RC Cars Off-Road Racing Truck",
+            "details": "Fast and rugged remote control off-road racing truck.",
+            "price": 79.99,
+            "discount": 10
+          },
+          {
+            "id": "T004",
+            "img": "https://i.ibb.co/qFJ1td2/24-World-Map-Jigsaw-Puzzle.png",
+            "name": "World Map Jigsaw Puzzle",
+            "details": "A challenging 1000-piece jigsaw puzzle featuring a world map.",
+            "price": 19.99,
+            "discount": 5
+          },
+          {
+            "id": "T005",
+            "img": "https://i.ibb.co/Nyjr1ph/25-LEGO-Classic-Creative-Bricks-Set.jpg",
+            "name": "LEGO Classic Creative Bricks Set",
+            "details": "Creative building blocks set for kids' imagination.",
+            "price": 29.99,
+            "discount": 12
+          }
+        ]
+      }
+    ]
+  }
+  
