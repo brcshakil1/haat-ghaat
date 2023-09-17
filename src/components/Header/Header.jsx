@@ -1,9 +1,9 @@
 
 const Header = () => {
     return (
-        <header>
-            <nav>
-                <h1>Haat <span>Ghaat</span></h1>
+        <header className="bg-[#131921]">
+            <nav className="container md:mx-auto">
+                <h1 className="cursor-pointer text-white text-2xl font-bold py-4 px-6">HaaT <span className="text-sky-400">GhaaT</span></h1>
             </nav>
         </header>
     );

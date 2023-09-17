@@ -1,10 +1,24 @@
+import PropTypes from 'prop-types'
 
-const Cart = () => {
-    return (
-        <div>
-            cart
-        </div>
-    );
-};
+function Cart({products}) {
+  return (
+    <div className='pt-2.5'>
+        {
+            products.map((product, idx) => <div key={product.id} className='flex justify-between py-1'>
+                <h3>{idx+1}. {product.name}</h3>
+                <div 
+                className='bg-red-400 text-2xl text-white flex items-center justify-center rounded-full w-6 h-6 cursor-pointer'
+                // onClick={handleRemove}
+                >-</div>
+            </div>)
+        }
+    </div>
+  )
+}
 
-export default Cart;
+Cart.propTypes = {
+    products: PropTypes.array,
+    handleRemove: PropTypes.func
+}
+
+export default Cart
