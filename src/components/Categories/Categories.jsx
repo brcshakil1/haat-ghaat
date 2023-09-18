@@ -18,29 +18,31 @@ const Categories = ({categories}) => {
         
     }
 
-    // const handleRemove = (item) => {
-    //     const removeItem = products.filter(product => product.id !== item.id);
-    //     console.log(removeItem)
-    // }
+    const handleRemove = (item, price) => {
+        const filterIt = products.filter(product => product.id !== item.id);
+        const reducePrice = totalPrice - price;
+        setTotalPrice(reducePrice)
+        setProducts(filterIt)
+    }
     return (
-        <div className='flex justify-between'>
+        <div className='flex flex-col-reverse md:flex-row md:justify-between'>
             <div>
                 {
                     categories.map((category, idx) => <Category 
                         key={idx} 
                         category={category} 
                         handleProducts={handleProducts}
-                        // handleRemove={handleRemove}
                     />)
                 }
             </div>
-            <div className='w-[280px] md:mt-[88px]'>
-                <div className='bg-white p-4'>
+            <div className='w-full md:w-[280px] mt-10 md:mt-[88px]'>
+                <div className='bg-white p-4 mx-4'>
                     <h2 className='pb-2.5'>Cart: {products.length}</h2>
                     <hr />
                     <h3 className='pt-2.5'>Products Name</h3>
-                    <Cart products={products}
-                    // handleRemove={handleRemove}
+                    <Cart 
+                        products={products}
+                        handleRemove={handleRemove}
                     />
                     <hr />
                     <p>Total Price: {totalPrice.toFixed(2)}</p>

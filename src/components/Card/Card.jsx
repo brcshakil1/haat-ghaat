@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
 
-function Card({product, handleProducts, handleRemove}) {
+function Card({product, handleProducts}) {
     const {id, img, name, details, price, discount} = product;
 
     const disCountPrice = price - (price * discount / 100);
     
   return (
-    <div className='md:w-[290px] my-5 bg-white p-4 rounded-md'>
+    <div className='w-full md:w-[290px] my-5 bg-white p-4 rounded-md'>
         <img src={img} alt="" className='w-[280px] h-[200px] object-cover rounded-md'/>
         <div>
             <h3 className='text-xl font-medium py-2'>{name}</h3>
@@ -22,10 +22,7 @@ function Card({product, handleProducts, handleRemove}) {
             text-white mt-5 
             font-semibold'
 
-            onClick={() => {
-              handleProducts(id, product, disCountPrice)
-              handleRemove(product)
-            }}
+            onClick={() => handleProducts(id, product, disCountPrice)}
             >Add To Cart</button>
         </div>
     </div>
@@ -35,7 +32,6 @@ function Card({product, handleProducts, handleRemove}) {
 Card.propTypes = {
     product: PropTypes.object,
     handleProducts: PropTypes.func,
-    handleRemove: PropTypes.func
 }
 
 export default Card

@@ -4,12 +4,15 @@ import Card from '../Card/Card';
 function Category({category, handleProducts, handleRemove}) {
     const {name, products} = category;
   return (
-    <div className='my-10'>
+    <div className='my-10 mx-4'>
         <h2 
-        className='border-2 border-sky-400 py-2 px-4 rounded-sm text-[#131921] text-xl font-semibold inline cursor-default'>
+        className='border-2 border-sky-400 
+        py-2 px-4 rounded-sm 
+        text-[#131921] text-xl 
+        font-semibold inline cursor-default'>
             {name}
         </h2>
-        <div className='grid grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 '>
             {
                 products.map(product => <Card 
                         key={product.id} 
